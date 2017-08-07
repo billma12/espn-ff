@@ -5,7 +5,6 @@ from ff import League
 
 def print_table(data, headers):
     """prints out data using tabulate"""
-
     return print(tabulate(data, headers=headers, tablefmt='simple'))
 
 
@@ -19,7 +18,6 @@ def print_league_stats(leagueid, year):
 
 def print_top_points(leagueid, start, end, top=10):
     """prints out top points scored"""
-
     data = get_top_points(leagueid, start, end, top)
     headers = ['score', 'year', 'week', 'name']
 
@@ -40,7 +38,6 @@ def get_league_stats(leagueid, year):
 
 def get_top_points(leagueid, start, end, top=10):
     """returns list of top scores, default is 10"""
-
     top_scores = []
     myleague = {}
 
