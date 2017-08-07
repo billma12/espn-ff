@@ -25,7 +25,7 @@ python main.py [leagueID]
 
         pip install tabulate
 
-2. Optional Features:
+2. Extra Features:
 
    1. Extend the results
 
