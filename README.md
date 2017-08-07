@@ -18,4 +18,4 @@ python main.py [leagueID]
 
 ## Preview
 
-[![asciicast](https://asciinema.org/a/xsENMOxRhykL4RmRQrGTXuKYg.png)](https://asciinema.org/a/xsENMOxRhykL4RmRQrGTXuKYg)
+![test](pics/preview.png)

@@ -19,7 +19,9 @@ def print_league_stats(leagueid, year):
 def print_top_points(leagueid, start=2007, end=2016, top=10):
     """prints out top points scored"""
     data = get_top_points(leagueid, start, end, top)
-    headers = ['score', 'year', 'week', 'name']
+    for i in range(len(data)):
+        data[i].insert(0, i+1)
+    headers = ['rank', 'score', 'year', 'week', 'name']
 
     return print_table(data, headers)
 
@@ -50,7 +52,7 @@ def get_top_points(leagueid, start=2010, end=2016, top=10):
         for team in myleague[year].teams:
             week = 1
             for score in team.scores:
-                top_scores.append((score, year, week, team.name))
+                top_scores.append([score, year, week, team.name])
                 week += 1
 
     return sorted(top_scores, reverse=True)[:top]
