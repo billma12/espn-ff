@@ -20,7 +20,7 @@ def print_top_points(leagueid, start=2007, end=2016, top=10):
     """prints out top points scored"""
     data = get_top_points(leagueid, start, end, top)
     for i in range(len(data)):
-        data[i].insert(0, i+1)
+        data[i].insert(0, i+1)  # add ranks
     headers = ['rank', 'score', 'year', 'week', 'name']
 
     return print_table(data, headers)
