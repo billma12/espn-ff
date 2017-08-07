@@ -18,4 +18,4 @@ python main.py [leagueID]
 
 ## Preview
 
-![test](pics/preview.png)
+![test](https://i.imgur.com/ITpbgT8.jpg)
