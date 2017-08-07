@@ -18,7 +18,7 @@ python main.py [leagueID]
 
 ### Preview
 
-<img src="https://i.imgur.com/ITpbgT8.jpg" width="450" height="296"/>
+- <a href="https://ibb.co/hCLM2F"><img src="https://preview.ibb.co/fX2qwa/preview.png" alt="preview" border="0"></a>
 
 ### Notes
 1. Make sure tabulate is installed
