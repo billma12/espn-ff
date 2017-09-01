@@ -1,8 +1,11 @@
 # ESPN-ff
 
-This module prints the top 10 most scored points from
+This python module prints the top 10 most scored points from
 your ESPN fantasy football league
 
+*UPDATE:*
+You can use it in the browser here (replace the league ID with yours):
+https://ff-top.herokuapp.com/fantasy/476859
 
 ### Install
 
@@ -39,7 +42,7 @@ python main.py [leagueID]
 
         <a href="https://ibb.co/bxqFUv"><img src="https://preview.ibb.co/ncGB2F/Screen_Shot_2017_08_07_at_2_09_49_AM.png" alt="Screen_Shot_2017_08_07_at_2_09_49_AM" border="0"></a>
 
-3. [copy pasta'd mostly from](https://github.com/rbarton65/espnff)
+3. [copy pasta'd from](https://github.com/rbarton65/espnff)
 
 ### To do
 
