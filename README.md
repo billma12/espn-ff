@@ -7,7 +7,7 @@ your ESPN fantasy football league
 
 You can now use it in the browser here (replace the league ID with yours):
 
-https://ff-top.herokuapp.com/fantasy/476859
+https://ff-top.herokuapp.com/476859
 
 ### Install
 
